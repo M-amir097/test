@@ -1,3 +1,4 @@
+//First code
 ///////////////////////////////////////////////
 //System description: Autopilot design.......//
 //Authors: Mohammed Abdullah; Mohammed Amir..//
@@ -436,7 +437,7 @@ void pitch_damper(void)
 void GPS(void)//(double v1, double v2, float v3, int v4, int v5, float v6, int v7,int v8)
 {
  double Bearing=0;
- Bearing = Bearing();
+// Bearing = Bearing();
  heading(Bearing);
  //altitude(v3, v5);
   Distance();
